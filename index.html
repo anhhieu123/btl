@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tự Học</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="flexslider.css"/>
+</head>
+<body>
+<div id="wedsite">
+    <div id="top">
+        <div id="top-left">
+                <ul>
+                    <li>
+                        <a href="#"><img src="hinhanh/facebook-24.png" alt="Facebook" /></a>
+                        <a href="#"><img src="hinhanh/gmail-24.png"  alt="Gmail" /> </a>
+                    </li>
+                </ul>
+        </div>
+
+        <div id="top-right">
+                <ul>
+                    <li> <a href="#"><img src="hinhanh/dangnhap.png" alt="Dang nhap" /></a></li>
+                    <li>|</li>
+                    <li> <a href="login.html">Đăng nhập</a></li>
+                    <li>|</li>
+                    <li> <a href="#">Đăng kí</a></li>
+                </ul>
+        </div>
+    </div>
+    <div id="logo">
+        <div style="float:left;width:300px;height:79px;margin:40px 10px 0px 10px">
+            <a href="#"><img src="hinhanh/logo.png" alt="Trang chu" /> </a>
+        </div>
+            <div style="float:right;width:450px;height:100px;margin:70px 0 0 0;">
+                <div id="sdt"> SUPPORT:0355370909 </div>
+                <div id= "search">
+                    <form>
+                        <input type="text" placeholder="search for here..." id="textsearch"/>
+                        <button type="submit" id="search-button"</button>
+                    </form>
+                </div>
+            </div >
+    </div>
+    <div id="menu">
+        <ul>
+            <img src="hinhanh/iconhome-24.png"alt="trangchu" />
+            <li style="border-left:1px dotted #000000"><a href="#">Trang chủ</a></li>
+            <li><a href="#" >Chương trình học</a>
+                <ul id="submenu">
+                        <li><a href="#" >Toán Học</a></li>
+                        <li><a href="#" >Vật Lý</a></li>
+                        <li><a href="#" >Hóa Học</a></li>
+                        <li><a href="#" >Tiếng Anh</a></li>
+                        <li><a href="#" >Văn Học</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Tin giáo dục</a></li>
+            <li><a href="#">Trắc nghiệm vui</a></li>
+            <li><a href="#" >Thư viện</a></li>
+            <li><a href="#" >Mẹo học hay</a></li>
+            <li><a href="#">Trợ giúp</a></li>
+        </ul>
+    </div>
+    <div id="slide">
+        <section class="slider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="hinhanh/banner-top1.png" />
+                    </li>
+                    <li>
+                        <img src="hinhanh/banner-top2.png" />
+                    </li>
+                    <li>
+                        <img src="hinhanh/banner-top3.jpg" />
+                    </li>
+                    <li>
+                        <img src="hinhanh/bn_web1.jpg" />
+                    </li>
+                </ul>
+            </div>
+         </section>
+    </div>
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  
+    <!-- FlexSlider -->
+    <script defer src="jquery.flexslider.js"></script>
+  
+    <script type="text/javascript">
+      $(function(){
+        SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "slide",
+         controlNav:false,
+        });
+      });
+    </script>
+    <div id="header">
+        <div class="content">
+            <div id="logo1">
+                <a href="#"><img src="hinhanh/chuongtrinh-12.png"alt="chuongtrinh12" style="margin: 0px 30px 0px 20px"/></a>
+                <a href="#"><img src="hinhanh/onthi-daihoc.png" alt="ondh"  /></a>
+            </div>
+            <div id="thuvien">
+                <img src="hinhanh/thuvien.png" width="580px" height="54" alt="Thư Viện" />
+                    <ul>
+                        <li> 
+                            <div class="anh1">
+                                <a href="#">
+                                    <img src="hinhanh/pd-sachhay.png" width="155" height="104" />
+                                    <p class="title">Sách hay</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li> 
+                            <div class="anh1">
+                                <a href="#">
+                                    <img src="hinhanh/pd-tailieu-hoctap.png" width="155" height="104" />
+                                    <p class="title">Tài liệu học tập</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> 
+                            <div class="anh1">
+                                <a href="#">
+                                <img src="hinhanh/pd-tindocnhieu.png" width="155" height="104" />
+                                    <p class="title">Tin đọc nhiều</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            <div id="thuvien1">
+                <img src="hinhanh/pd-meohay.png" width="580" height="54" />
+                    <ul>
+                        <li> 
+                            <div class="anh1">
+                                <a href="#">
+                                    <img src="hinhanh/pd-meohoc-tunhien.png" width="155" height="104" />
+                                    <p class="title">Mẹo học tốt môn tự nhiên</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li> 
+                            <div class="anh1">
+                                <a href="#">
+                                <img src="hinhanh/pd-meohoc-xahoi.png" width="155" height="104" />
+                                    <p class="title">Mẹo học tốt môn xã hội</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li> 
+                            <div class="anh1">
+                                <a href="#">
+                                <img src="hinhanh/pd-meo-tonghop.png" width="155" height="104" />
+                                    <p class="title">Tổng hợp mẹo</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            <div id="thuvien1">
+                    <img src="hinhanh/pd-tin-giaoduc.png" width="580" height="54" />
+                        <ul>
+                            <li> 
+                                <div class="anh1">
+                                    <a href="#">
+                                        <img src="hinhanh/khoanhkhac-cothay.png" width="155" height="104" />
+                                        <p class="title">Tin Học Đường</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <ul>
+                            <li> 
+                                <div class="anh1">
+                                    <a href="#">
+                                    <img src="hinhanh/pd-giaoduc.png" width="155" height="104" />
+                                        <p class="title">Tin Giáo Dục</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <ul>
+                            <li> 
+                                <div class="anh1">
+                                    <a href="#">
+                                    <img src="hinhanh/giaoduc-new.png" width="155" height="104" />
+                                        <p class="title">Tin Nổi Bật</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+
+        <div class="sidebar">
+            <div id="logo_tintuc"> <img src="hinhanh/tintuc.png" width="400" height="54" alt="Tin Tức nổi bật"></div>
+            <div id="Tintuc">
+                    <ul>
+                      <li>
+                        <a href="#" >>>Chuyên đề và bài tập Hóa vô cơ 11 Chương 3 Nhóm Cacbon, Silic có đáp án</a>
+                      </li>
+                      <li>
+                        <a href="#" >>>Cuộc thi “Khoảnh Khắc Cô Thầy” - Tri ân thầy cô cùng Baitap123</a> 
+                      </li>
+                      <li>
+                          <a href="#">>>Đề thi thử THPT Quốc gia lần 1 môn Toán trường THPT Ngô Sỹ Liên</a> 
+                      </li>
+                      <li>
+                        <a href="#">>>Đề thi thử THPT Quốc gia lần 1 môn Hóa học THPT Lê Duẩn</a>
+                      </li>
+                      <li>
+                        <a href="#">>>Đề thi thử THPT Quốc gia lần 1 môn Toán trường THPT Vĩnh Yên</a>
+                        </li>
+                      <li>
+                       <a href="#">>>Đề thi thử THPT Quốc gia lần 1 môn Toán trường THPT Vĩnh Yên</a>
+                      </li>
+                    </ul>
+              </div>
+              <div style="margin-top:20px"> <img src="hinhanh/docnhieiu.png" width="400" height="52"  alt="Đọc nhiều nhất"></div>
+              <div id="Tintuc"> 
+                 <ul>
+                     <li>
+                       <a href="#" >>>Tất tần tật bộ sơ đồ tư duy môn Văn dành cho ôn thi THPT Quốc gia 2017</a>>
+                     </li>
+                     <li>
+                       <a href="#">>>Hot: Một số câu hỏi và đáp án trả lời nhanh môn Lịch sử cần lưu ý</a> 
+                     </li>
+                     <li>
+                       <a href="#" >Khối D07 - sự lựa chọn mới và hấp dẫn đối với bạn?</a>
+                     </li>
+                     <li>
+                       <a href="#">>>Đáp án lời giải chi tiết đề thi minh họa THPT Quốc gia 2018 môn Hóa học</a> 
+                     </li>
+                     <li>
+                       <a href="#">>>Đáp án lời giải chi tiết đề thi minh họa THPT Quốc gia 2018 môn Toán</a>
+                     </li>
+                 </ul>
+               </div>
+        </div>
+
+    </div>
+    
+    <div id="footer">
+        <div class="fLeft">
+            <p>Cơ quan chủ quản: Công ty Cổ phần Vinsofts</p>
+            <p>Địa chỉ: 175 Tây Sơn,Đống Đa, Hà Nội<br />
+            Điện thoại: 0355370909</p>
+            <p>Email: <a href="mailto:hieunt621@wru.vn">hieunt621@wru.vn</a></p>
+            <p>
+                Bạn vui lòng đọc kỹ Chính sách bảo mật thông tin và Điều khoản sử dụng<br/>
+            Website đã được thông báo và được chấp nhận bởi Cục TMĐT và CNTT, Bộ Công Thương.
+            </p>
+            <p>Copyright (c) 2012 ABC</p>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+</div>
+    
+</body>
+</html>
